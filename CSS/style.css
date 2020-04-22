@@ -28,6 +28,7 @@ body{
 }
 .profile-name{
   font-size: 80px;
+  font-weight: 900;
   line-height: 94px;
 }
 .profile-bio{
