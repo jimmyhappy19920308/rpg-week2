@@ -13,7 +13,7 @@ body{
 	justify-content: center;
   background-image: url(https://res.cloudinary.com/dpllkgin1/image/upload/v1587541604/rpg-week2/photo-1552393700-42696fb89bfa.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-position: center center;
 }
 
 .profile{
