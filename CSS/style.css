@@ -4,6 +4,12 @@ img{
   vertical-align: bottom;
 }
 
+.title{
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: 500;
+}
+
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -62,6 +68,60 @@ body{
 
 .profile-social-media .youtube{
   background-image: url(../images/iconfinder_6_social_2609577.svg);
+}
+
+.works{
+  padding-top: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 106px;
+  position: relative;
+}
+.works::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 361px;
+  bottom: 0;
+  z-index: -1;
+  background-image: url(../images/photo-1561291386-5be50364cfb5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.works .title{
+  margin-bottom: 24px;
+}
+
+.works-description{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 48px;
+}
+
+.works-list-poster ul, 
+.works-list-photo ul,
+.works-list-other ul{
+  display: flex;
+  padding-bottom: 56px;
+}
+
+.works-list-poster ul li:nth-child(1), 
+.works-list-photo ul li:nth-child(1),
+.works-list-other ul li:nth-child(1),
+.works-list-poster ul li:nth-child(2),
+.works-list-other ul li:nth-child(2){
+  margin-right: 24px;
+}
+
+.works-info{
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 16px;
 }
 
 
