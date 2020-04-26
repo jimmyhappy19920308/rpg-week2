@@ -195,4 +195,16 @@ body{
   padding-top: 16px;
 }
 
+.footer{
+  background: #000;
+  color: #fff;
+  padding: 64px 0px;
+  text-align: center;
+}
 
+.contact .title{
+  margin-bottom: 16px;
+}
+.contact p{
+  margin-bottom: 16px;
+}
