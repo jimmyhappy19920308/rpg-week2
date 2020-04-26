@@ -140,7 +140,6 @@ body{
   margin-left: 24px;
 }
 
-
 .works{
   padding-top: 64px;
   display: flex;
@@ -164,21 +163,18 @@ body{
 .works .title{
   margin-bottom: 24px;
 }
-
 .works-description{
   font-size: 20px;
   font-weight: 500;
   line-height: 35px;
   margin-bottom: 48px;
 }
-
 .works-list-poster ul, 
 .works-list-photo ul,
 .works-list-other ul{
   display: flex;
   padding-bottom: 56px;
 }
-
 .works-list-poster ul li:nth-child(1), 
 .works-list-photo ul li:nth-child(1),
 .works-list-other ul li:nth-child(1),
@@ -186,7 +182,6 @@ body{
 .works-list-other ul li:nth-child(2){
   margin-right: 24px;
 }
-
 .works-info{
   font-size: 20px;
   line-height: 28px;
