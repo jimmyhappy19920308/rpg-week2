@@ -70,6 +70,52 @@ body{
   background-image: url(../images/iconfinder_6_social_2609577.svg);
 }
 
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+  margin-bottom: 24px;
+}
+.about .title{
+  margin-bottom: 40px;
+}
+.about-avator{
+  margin-bottom: 24px;
+}
+.about-info{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+}
+.about-info hr{
+  width: 384px;
+  margin-bottom: 32px;
+  border: none;
+  height: 1px;
+  background: #000000;
+}
+.about-position{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.about-position li{
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-position .dot{
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: #891818;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
 .works{
   padding-top: 64px;
   display: flex;
