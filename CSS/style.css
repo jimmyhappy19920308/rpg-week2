@@ -112,6 +112,35 @@ body{
   margin-right: 16px;
 }
 
+.brand{
+  text-align: center;
+  background: #000;
+  color: #ffffff;
+  padding-top: 64px;
+  padding-bottom: 160px;
+}
+.brand .title{
+  margin-bottom: 16px;
+}
+.brand-slogan{
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+.brand-info{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 42px;
+  margin-bottom: 48px;
+}
+.brand-products li a{
+  display: inline-block;
+}
+.brand-products li a:nth-child(2){
+  margin-left: 24px;
+}
+
+
 .works{
   padding-top: 64px;
   display: flex;
